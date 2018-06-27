@@ -1,0 +1,9 @@
+Building Marketcoin
+
+See doc/readme-qt.rst for instructions on building Marketcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Marketcoin.
+
+See doc/build-*.txt for instructions on building marketcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Marketcoin.

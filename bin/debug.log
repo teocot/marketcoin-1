@@ -1,0 +1,535 @@
+2018-05-19 11:42:09 Opened LevelDB successfully
+2018-05-19 11:42:09 Opening LevelDB in /home/ubuntu/.-----------------------/chainstate
+2018-05-19 11:42:09 Opened LevelDB successfully
+2018-05-19 11:42:09 LoadBlockIndexDB(): last block file = 0
+2018-05-19 11:42:09 LoadBlockIndexDB(): transaction index disabled
+2018-05-19 11:42:09 Initializing databases...
+2018-05-19 11:42:09 ee86bd9b2738d2e1f02e10546e422a02c4484d7064a747e02f28b265c32e7aa8
+2018-05-19 11:42:09 ee86bd9b2738d2e1f02e10546e422a02c4484d7064a747e02f28b265c32e7aa8
+2018-05-19 11:42:09 cee38220e9a044ac5238e7a0780df905802537ca65ef325366872ee1c08aa24b
+2018-05-19 11:42:09 min nBit:  1e0fffff
+2018-05-19 11:42:09 CBlock(hash=ee86bd9b2738d2e1f02e10546e422a02c4484d7064a747e02f28b265c32e7aa8, input=0100000000000000000000000000000000000000000000000000000000000000000000004ba28ac0e12e87665332ef65ca37258005f90d78a0e73852ac44a0e92082e3ce2e11fd5af0ff0f1ee2903f7c, PoW=0000065f9dc44609882092a471fd30d1ee2ddabf2dbaab26184e2bf1bf825ada, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=cee38220e9a044ac5238e7a0780df905802537ca65ef325366872ee1c08aa24b, nTime=1526534446, nBits=1e0ffff0, nNonce=2084540642, vtx=1)
+2018-05-19 11:42:09   CTransaction(hash=cee38220e9a044ac5238e7a0780df905802537ca65ef325366872ee1c08aa24b, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104225768792073686f756c6420776520666967687420746f20676574206f6e20746f703f)
+    CTxOut(nValue=20.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+  vMerkleTree: cee38220e9a044ac5238e7a0780df905802537ca65ef325366872ee1c08aa24b 
+2018-05-19 11:42:09 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-05-19 11:42:09 SetBestChain: new best=ee86bd9b2738d2e1f02e10546e422a02c4484d7064a747e02f28b265c32e7aa8  height=0  log2_work=20.000022  tx=1  date=2018-05-17 05:20:46 progress=0.306293
+2018-05-19 11:42:09 init message: Verifying blocks...
+2018-05-19 11:42:09  block index              31ms
+2018-05-19 11:42:09 init message: Loading wallet...
+2018-05-19 11:42:09 nFileVersion = 80705
+2018-05-19 11:42:09 Performing wallet upgrade to 60000
+2018-05-19 11:42:09 keypool added key 1, size=1
+2018-05-19 11:42:09 keypool added key 2, size=2
+2018-05-19 11:42:09 keypool added key 3, size=3
+2018-05-19 11:42:09 keypool added key 4, size=4
+2018-05-19 11:42:09 keypool added key 5, size=5
+2018-05-19 11:42:09 keypool added key 6, size=6
+2018-05-19 11:42:09 keypool added key 7, size=7
+2018-05-19 11:42:09 keypool added key 8, size=8
+2018-05-19 11:42:09 keypool added key 9, size=9
+2018-05-19 11:42:09 keypool added key 10, size=10
+2018-05-19 11:42:09 keypool added key 11, size=11
+2018-05-19 11:42:09 keypool added key 12, size=12
+2018-05-19 11:42:09 keypool added key 13, size=13
+2018-05-19 11:42:09 keypool added key 14, size=14
+2018-05-19 11:42:09 keypool added key 15, size=15
+2018-05-19 11:42:09 keypool added key 16, size=16
+2018-05-19 11:42:09 keypool added key 17, size=17
+2018-05-19 11:42:09 keypool added key 18, size=18
+2018-05-19 11:42:09 keypool added key 19, size=19
+2018-05-19 11:42:09 keypool added key 20, size=20
+2018-05-19 11:42:09 keypool added key 21, size=21
+2018-05-19 11:42:09 keypool added key 22, size=22
+2018-05-19 11:42:09 keypool added key 23, size=23
+2018-05-19 11:42:09 keypool added key 24, size=24
+2018-05-19 11:42:09 keypool added key 25, size=25
+2018-05-19 11:42:09 keypool added key 26, size=26
+2018-05-19 11:42:09 keypool added key 27, size=27
+2018-05-19 11:42:09 keypool added key 28, size=28
+2018-05-19 11:42:09 keypool added key 29, size=29
+2018-05-19 11:42:09 keypool added key 30, size=30
+2018-05-19 11:42:09 keypool added key 31, size=31
+2018-05-19 11:42:09 keypool added key 32, size=32
+2018-05-19 11:42:09 keypool added key 33, size=33
+2018-05-19 11:42:09 keypool added key 34, size=34
+2018-05-19 11:42:09 keypool added key 35, size=35
+2018-05-19 11:42:09 keypool added key 36, size=36
+2018-05-19 11:42:09 keypool added key 37, size=37
+2018-05-19 11:42:09 keypool added key 38, size=38
+2018-05-19 11:42:09 keypool added key 39, size=39
+2018-05-19 11:42:09 keypool added key 40, size=40
+2018-05-19 11:42:09 keypool added key 41, size=41
+2018-05-19 11:42:09 keypool added key 42, size=42
+2018-05-19 11:42:09 keypool added key 43, size=43
+2018-05-19 11:42:09 keypool added key 44, size=44
+2018-05-19 11:42:09 keypool added key 45, size=45
+2018-05-19 11:42:09 keypool added key 46, size=46
+2018-05-19 11:42:09 keypool added key 47, size=47
+2018-05-19 11:42:09 keypool added key 48, size=48
+2018-05-19 11:42:09 keypool added key 49, size=49
+2018-05-19 11:42:09 keypool added key 50, size=50
+2018-05-19 11:42:09 keypool added key 51, size=51
+2018-05-19 11:42:09 keypool added key 52, size=52
+2018-05-19 11:42:09 keypool added key 53, size=53
+2018-05-19 11:42:09 keypool added key 54, size=54
+2018-05-19 11:42:09 keypool added key 55, size=55
+2018-05-19 11:42:09 keypool added key 56, size=56
+2018-05-19 11:42:09 keypool added key 57, size=57
+2018-05-19 11:42:09 keypool added key 58, size=58
+2018-05-19 11:42:09 keypool added key 59, size=59
+2018-05-19 11:42:09 keypool added key 60, size=60
+2018-05-19 11:42:09 keypool added key 61, size=61
+2018-05-19 11:42:09 keypool added key 62, size=62
+2018-05-19 11:42:09 keypool added key 63, size=63
+2018-05-19 11:42:09 keypool added key 64, size=64
+2018-05-19 11:42:09 keypool added key 65, size=65
+2018-05-19 11:42:09 keypool added key 66, size=66
+2018-05-19 11:42:09 keypool added key 67, size=67
+2018-05-19 11:42:09 keypool added key 68, size=68
+2018-05-19 11:42:09 keypool added key 69, size=69
+2018-05-19 11:42:09 keypool added key 70, size=70
+2018-05-19 11:42:09 keypool added key 71, size=71
+2018-05-19 11:42:09 keypool added key 72, size=72
+2018-05-19 11:42:09 keypool added key 73, size=73
+2018-05-19 11:42:09 keypool added key 74, size=74
+2018-05-19 11:42:09 keypool added key 75, size=75
+2018-05-19 11:42:09 keypool added key 76, size=76
+2018-05-19 11:42:09 keypool added key 77, size=77
+2018-05-19 11:42:09 keypool added key 78, size=78
+2018-05-19 11:42:09 keypool added key 79, size=79
+2018-05-19 11:42:09 keypool added key 80, size=80
+2018-05-19 11:42:09 keypool added key 81, size=81
+2018-05-19 11:42:09 keypool added key 82, size=82
+2018-05-19 11:42:09 keypool added key 83, size=83
+2018-05-19 11:42:09 keypool added key 84, size=84
+2018-05-19 11:42:09 keypool added key 85, size=85
+2018-05-19 11:42:09 keypool added key 86, size=86
+2018-05-19 11:42:09 keypool added key 87, size=87
+2018-05-19 11:42:09 keypool added key 88, size=88
+2018-05-19 11:42:09 keypool added key 89, size=89
+2018-05-19 11:42:09 keypool added key 90, size=90
+2018-05-19 11:42:09 keypool added key 91, size=91
+2018-05-19 11:42:09 keypool added key 92, size=92
+2018-05-19 11:42:09 keypool added key 93, size=93
+2018-05-19 11:42:09 keypool added key 94, size=94
+2018-05-19 11:42:09 keypool added key 95, size=95
+2018-05-19 11:42:09 keypool added key 96, size=96
+2018-05-19 11:42:09 keypool added key 97, size=97
+2018-05-19 11:42:09 keypool added key 98, size=98
+2018-05-19 11:42:09 keypool added key 99, size=99
+2018-05-19 11:42:09 keypool added key 100, size=100
+2018-05-19 11:42:09 keypool added key 101, size=101
+2018-05-19 11:42:09 keypool reserve 1
+2018-05-19 11:42:09 keypool keep 1
+2018-05-19 11:42:09  wallet                  551ms
+2018-05-19 11:42:09 init message: Loading addresses...
+2018-05-19 11:42:09 ERROR: CAddrman::Read() : open failed
+2018-05-19 11:42:09 Invalid or missing peers.dat; recreating
+2018-05-19 11:42:09 Loaded 0 addresses from peers.dat  0ms
+2018-05-19 11:42:09 mapBlockIndex.size() = 1
+2018-05-19 11:42:09 nBestHeight = 0
+2018-05-19 11:42:09 setKeyPool.size() = 100
+2018-05-19 11:42:09 mapWallet.size() = 0
+2018-05-19 11:42:09 mapAddressBook.size() = 1
+2018-05-19 11:42:09 msghand thread start
+2018-05-19 11:42:09 dumpaddr thread start
+2018-05-19 11:42:09 addcon thread start
+2018-05-19 11:42:09 opencon thread start
+2018-05-19 11:42:09 net thread start
+2018-05-19 11:42:09 upnp thread start
+2018-05-19 11:42:09 init message: Done loading
+2018-05-19 11:42:09 dnsseed thread start
+2018-05-19 11:42:09 Loading addresses from DNS seeds (could take a while)
+2018-05-19 11:42:09 0 addresses found from DNS seeds
+2018-05-19 11:42:09 dnsseed thread exit
+2018-05-19 11:42:10 GetMyExternalIP() received [122.58.182.50] 122.58.182.50:0
+2018-05-19 11:42:10 GetMyExternalIP() returned 122.58.182.50
+2018-05-19 11:42:10 AddLocal(122.58.182.50:7439,4)
+2018-05-19 11:42:11 refreshWallet
+2018-05-19 11:42:12 UPnP: ExternalIPAddress = 122.58.182.50
+2018-05-19 11:42:12 AddLocal(122.58.182.50:7439,3)
+2018-05-19 11:42:12 UPnP Port Mapping successful.
+2018-05-19 11:42:12 addcon thread interrupt
+2018-05-19 11:42:12 opencon thread interrupt
+2018-05-19 11:42:12 msghand thread interrupt
+2018-05-19 11:42:12 dumpaddr thread stop
+2018-05-19 11:42:12 net thread interrupt
+2018-05-19 11:42:12 Shutdown : In progress...
+2018-05-19 11:42:12 Flush(false)
+2018-05-19 11:42:12 wallet.dat refcount=0
+2018-05-19 11:42:12 wallet.dat checkpoint
+2018-05-19 11:42:12 wallet.dat detach
+2018-05-19 11:42:12 wallet.dat closed
+2018-05-19 11:42:12 DBFlush(false) ended               7ms
+2018-05-19 11:42:12 StopNode()
+2018-05-19 11:42:12 UPNP_DeletePortMapping() returned : 0
+2018-05-19 11:42:12 upnp thread interrupt
+2018-05-19 11:42:12 Flushed 0 addresses to peers.dat  6ms
+2018-05-19 11:42:12 Committing 0 changed transactions to coin database...
+2018-05-19 11:42:12 Flush(true)
+2018-05-19 11:42:12 wallet.dat refcount=0
+2018-05-19 11:42:12 wallet.dat checkpoint
+2018-05-19 11:42:12 wallet.dat detach
+2018-05-19 11:42:12 wallet.dat closed
+2018-05-19 11:42:12 DBFlush(true) ended               3ms
+2018-05-19 11:42:12 Shutdown : done
+2018-05-19 11:42:17 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-19 11:42:17 version v0.8.7.5-unk-beta (2018-05-19 21:48:09 +1200)
+2018-05-19 11:42:17 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2018-05-19 11:42:17 Default data directory /home/ubuntu/.-----------------------
+2018-05-19 11:42:17 Using data directory /home/ubuntu/.-----------------------
+2018-05-19 11:42:17 Using at most 125 connections (1024 file descriptors available)
+2018-05-19 11:42:17 init message: Verifying wallet...
+2018-05-19 11:42:17 dbenv.open LogDir=/home/ubuntu/.-----------------------/database ErrorFile=/home/ubuntu/.-----------------------/db.log
+2018-05-19 11:42:17 Bound to [::]:7439
+2018-05-19 11:42:17 Bound to 0.0.0.0:7439
+2018-05-19 11:42:17 init message: Loading block index...
+2018-05-19 11:42:17 Opening LevelDB in /home/ubuntu/.-----------------------/blocks/index
+2018-05-19 11:42:17 Opened LevelDB successfully
+2018-05-19 11:42:17 Opening LevelDB in /home/ubuntu/.-----------------------/chainstate
+2018-05-19 11:42:17 Opened LevelDB successfully
+2018-05-19 11:42:17 LoadBlockIndexDB(): last block file = 0
+2018-05-19 11:42:17 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=258, heights=0...0, time=2018-05-17...2018-05-17)
+2018-05-19 11:42:17 LoadBlockIndexDB(): transaction index disabled
+2018-05-19 11:42:17 LoadBlockIndexDB(): hashBestChain=ee86bd9b2738d2e1f02e10546e422a02c4484d7064a747e02f28b265c32e7aa8  height=0 date=2018-05-17 05:20:46
+2018-05-19 11:42:17 init message: Verifying blocks...
+2018-05-19 11:42:17  block index              50ms
+2018-05-19 11:42:17 init message: Loading wallet...
+2018-05-19 11:42:17 nFileVersion = 80705
+2018-05-19 11:42:17  wallet                  253ms
+2018-05-19 11:42:17 init message: Loading addresses...
+2018-05-19 11:42:17 Loaded 0 addresses from peers.dat  0ms
+2018-05-19 11:42:17 mapBlockIndex.size() = 1
+2018-05-19 11:42:17 nBestHeight = 0
+2018-05-19 11:42:17 setKeyPool.size() = 100
+2018-05-19 11:42:17 mapWallet.size() = 0
+2018-05-19 11:42:17 mapAddressBook.size() = 1
+2018-05-19 11:42:17 opencon thread start
+2018-05-19 11:42:17 msghand thread start
+2018-05-19 11:42:17 dumpaddr thread start
+2018-05-19 11:42:17 addcon thread start
+2018-05-19 11:42:17 net thread start
+2018-05-19 11:42:17 upnp thread start
+2018-05-19 11:42:17 dnsseed thread start
+2018-05-19 11:42:17 Loading addresses from DNS seeds (could take a while)
+2018-05-19 11:42:17 0 addresses found from DNS seeds
+2018-05-19 11:42:17 dnsseed thread exit
+2018-05-19 11:42:17 init message: Done loading
+2018-05-19 11:42:18 GetMyExternalIP() received [122.58.182.50] 122.58.182.50:0
+2018-05-19 11:42:18 GetMyExternalIP() returned 122.58.182.50
+2018-05-19 11:42:18 AddLocal(122.58.182.50:7439,4)
+2018-05-19 11:42:19 refreshWallet
+2018-05-19 11:42:19 UPnP: ExternalIPAddress = 122.58.182.50
+2018-05-19 11:42:19 AddLocal(122.58.182.50:7439,3)
+2018-05-19 11:42:19 UPnP Port Mapping successful.
+2018-05-19 11:43:08 net thread interrupt
+2018-05-19 11:43:08 addcon thread interrupt
+2018-05-19 11:43:08 opencon thread interrupt
+2018-05-19 11:43:08 msghand thread interrupt
+2018-05-19 11:43:08 dumpaddr thread stop
+2018-05-19 11:43:08 Shutdown : In progress...
+2018-05-19 11:43:08 Flush(false)
+2018-05-19 11:43:08 wallet.dat refcount=0
+2018-05-19 11:43:08 wallet.dat checkpoint
+2018-05-19 11:43:08 wallet.dat detach
+2018-05-19 11:43:08 wallet.dat closed
+2018-05-19 11:43:08 DBFlush(false) ended               8ms
+2018-05-19 11:43:08 StopNode()
+2018-05-19 11:43:08 UPNP_DeletePortMapping() returned : 0
+2018-05-19 11:43:08 upnp thread interrupt
+2018-05-19 11:43:08 Flushed 0 addresses to peers.dat  3ms
+2018-05-19 11:43:08 Committing 0 changed transactions to coin database...
+2018-05-19 11:43:08 Flush(true)
+2018-05-19 11:43:08 wallet.dat refcount=0
+2018-05-19 11:43:08 wallet.dat checkpoint
+2018-05-19 11:43:08 wallet.dat detach
+2018-05-19 11:43:08 wallet.dat closed
+2018-05-19 11:43:08 DBFlush(true) ended               8ms
+2018-05-19 11:43:08 Shutdown : done
+2018-05-19 11:44:59 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-19 11:44:59 version v0.8.7.5-unk-beta (2018-05-19 21:48:09 +1200)
+2018-05-19 11:44:59 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2018-05-19 11:44:59 Default data directory /home/ubuntu/.-----------------------
+2018-05-19 11:44:59 Using data directory /home/ubuntu/.-----------------------
+2018-05-19 11:44:59 Using at most 125 connections (1024 file descriptors available)
+2018-05-19 11:44:59 init message: Verifying wallet...
+2018-05-19 11:44:59 dbenv.open LogDir=/home/ubuntu/.-----------------------/database ErrorFile=/home/ubuntu/.-----------------------/db.log
+2018-05-19 11:44:59 Bound to [::]:7439
+2018-05-19 11:44:59 Bound to 0.0.0.0:7439
+2018-05-19 11:44:59 init message: Loading block index...
+2018-05-19 11:44:59 Opening LevelDB in /home/ubuntu/.-----------------------/blocks/index
+2018-05-19 11:44:59 Opened LevelDB successfully
+2018-05-19 11:44:59 Opening LevelDB in /home/ubuntu/.-----------------------/chainstate
+2018-05-19 11:44:59 Opened LevelDB successfully
+2018-05-19 11:44:59 LoadBlockIndexDB(): last block file = 0
+2018-05-19 11:44:59 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=258, heights=0...0, time=2018-05-17...2018-05-17)
+2018-05-19 11:44:59 LoadBlockIndexDB(): transaction index disabled
+2018-05-19 11:44:59 LoadBlockIndexDB(): hashBestChain=ee86bd9b2738d2e1f02e10546e422a02c4484d7064a747e02f28b265c32e7aa8  height=0 date=2018-05-17 05:20:46
+2018-05-19 11:44:59 init message: Verifying blocks...
+2018-05-19 11:44:59  block index              25ms
+2018-05-19 11:44:59 init message: Loading wallet...
+2018-05-19 11:44:59 nFileVersion = 80705
+2018-05-19 11:44:59  wallet                  202ms
+2018-05-19 11:44:59 init message: Loading addresses...
+2018-05-19 11:44:59 Loaded 0 addresses from peers.dat  1ms
+2018-05-19 11:44:59 mapBlockIndex.size() = 1
+2018-05-19 11:44:59 nBestHeight = 0
+2018-05-19 11:44:59 setKeyPool.size() = 100
+2018-05-19 11:44:59 mapWallet.size() = 0
+2018-05-19 11:44:59 mapAddressBook.size() = 1
+2018-05-19 11:44:59 opencon thread start
+2018-05-19 11:44:59 msghand thread start
+2018-05-19 11:44:59 dumpaddr thread start
+2018-05-19 11:44:59 addcon thread start
+2018-05-19 11:44:59 trying connection 192.168.1.66:7439 lastseen=396314.0hrs
+2018-05-19 11:44:59 net thread start
+2018-05-19 11:44:59 upnp thread start
+2018-05-19 11:44:59 connected 192.168.1.66:7439
+2018-05-19 11:44:59 send version message: version 70002, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.1.66:7439
+2018-05-19 11:44:59 dnsseed thread start
+2018-05-19 11:44:59 Loading addresses from DNS seeds (could take a while)
+2018-05-19 11:44:59 0 addresses found from DNS seeds
+2018-05-19 11:44:59 dnsseed thread exit
+2018-05-19 11:44:59 init message: Done loading
+2018-05-19 11:45:00 Added time data, samples 2, offset -1 (+0 minutes)
+2018-05-19 11:45:00 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=1, us=0.0.0.0:0, them=122.58.182.50:7439, peer=192.168.1.66:7439
+2018-05-19 11:45:00 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2018-05-19 11:45:00 received block dce57dfec129e72e833d4ac82b3c34903673bd45413fff4ae5479cc2d70ecfd9
+2018-05-19 11:45:00   nActualTimespan = 0  before bounds
+2018-05-19 11:45:00 GetNextWorkRequired RETARGET
+2018-05-19 11:45:00 nTargetTimespan = 300    nActualTimespan = 75
+2018-05-19 11:45:00 Before: 1e0ffff0  00000ffff0000000000000000000000000000000000000000000000000000000
+2018-05-19 11:45:00 After:  1e03fffc  000003fffc000000000000000000000000000000000000000000000000000000
+2018-05-19 11:45:00 Pre-allocating up to position 0x100000 in rev00000.dat
+2018-05-19 11:45:00 SetBestChain: new best=dce57dfec129e72e833d4ac82b3c34903673bd45413fff4ae5479cc2d70ecfd9  height=1  log2_work=22.32195  tx=2  date=2018-05-19 11:38:57 progress=0.997904
+2018-05-19 11:45:00 ProcessBlock: ACCEPTED
+2018-05-19 11:45:00 GetMyExternalIP() received [122.58.182.50] 122.58.182.50:0
+2018-05-19 11:45:00 GetMyExternalIP() returned 122.58.182.50
+2018-05-19 11:45:00 AddLocal(122.58.182.50:7439,4)
+2018-05-19 11:45:01 refreshWallet
+2018-05-19 11:45:02 UPnP: ExternalIPAddress = 122.58.182.50
+2018-05-19 11:45:02 AddLocal(122.58.182.50:7439,3)
+2018-05-19 11:45:02 UPnP Port Mapping successful.
+2018-05-19 11:45:18 yyyyyyyyyyyyyyyyyy started
+2018-05-19 11:45:18 keypool added key 102, size=101
+2018-05-19 11:45:18 keypool reserve 2
+2018-05-19 11:45:18 CreateNewBlock(): total size 1000
+2018-05-19 11:45:18   nActualTimespan = 195491  before bounds
+2018-05-19 11:45:18 GetNextWorkRequired RETARGET
+2018-05-19 11:45:18 nTargetTimespan = 300    nActualTimespan = 1200
+2018-05-19 11:45:18 Before: 1e03fffc  000003fffc000000000000000000000000000000000000000000000000000000
+2018-05-19 11:45:18 After:  1e0ffff0  00000ffff0000000000000000000000000000000000000000000000000000000
+2018-05-19 11:45:18 Running yyyyyyyyyyyyyyyyyy with 1 transactions in block (186 bytes)
+2018-05-19 11:45:20 Flushing wallet.dat
+2018-05-19 11:45:20 Flushed wallet.dat 6ms
+2018-05-19 11:45:22 hashmeter      2 khash/s
+2018-05-19 11:47:43 received block c23921ed117fa96d10fb4df8fc602894ba441aa647bf1efec481a50e33476592
+2018-05-19 11:47:43   nActualTimespan = 195491  before bounds
+2018-05-19 11:47:43 GetNextWorkRequired RETARGET
+2018-05-19 11:47:43 nTargetTimespan = 300    nActualTimespan = 1200
+2018-05-19 11:47:43 Before: 1e03fffc  000003fffc000000000000000000000000000000000000000000000000000000
+2018-05-19 11:47:43 After:  1e0ffff0  00000ffff0000000000000000000000000000000000000000000000000000000
+2018-05-19 11:47:43 Committing 2 changed transactions to coin database...
+2018-05-19 11:47:43 SetBestChain: new best=c23921ed117fa96d10fb4df8fc602894ba441aa647bf1efec481a50e33476592  height=2  log2_work=22.584985  tx=3  date=2018-05-19 11:47:43 progress=1.000000
+2018-05-19 11:47:43 ProcessBlock: ACCEPTED
+2018-05-19 11:47:44 CreateNewBlock(): total size 1000
+2018-05-19 11:47:44   nActualTimespan = 526  before bounds
+2018-05-19 11:47:44 GetNextWorkRequired RETARGET
+2018-05-19 11:47:44 nTargetTimespan = 300    nActualTimespan = 526
+2018-05-19 11:47:44 Before: 1e0ffff0  00000ffff0000000000000000000000000000000000000000000000000000000
+2018-05-19 11:47:44 After:  1e0fffff  00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+2018-05-19 11:47:44 Running yyyyyyyyyyyyyyyyyy with 1 transactions in block (186 bytes)
+2018-05-19 11:50:48 yyyyyyyyyyyyyyyyyy:
+2018-05-19 11:50:48 proof-of-work found  
+  hash: 000009baa4db6f2e63c2298d61188b9e78500536ef1747859f7858d48bd9dbae  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 11:50:48 CBlock(hash=2b2a11a2b251a5d07645af6f9530d5aac2ff4a3b4b657e1bb4d513a367b9c32e, input=02000000926547330ea581c4fe1ebf47a61a44ba942860fcf84dfb106da97f11ed2139c22309dc5aa51f123e4905bdf00c1973d5af02bdf7c45816927d809e3c9fb4f57d980f005bffff0f1edad50600, PoW=000009baa4db6f2e63c2298d61188b9e78500536ef1747859f7858d48bd9dbae, ver=2, hashPrevBlock=c23921ed117fa96d10fb4df8fc602894ba441aa647bf1efec481a50e33476592, hashMerkleRoot=7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923, nTime=1526730648, nBits=1e0fffff, nNonce=447962, vtx=1)
+2018-05-19 11:50:48   CTransaction(hash=7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 530101062f503253482f)
+    CTxOut(nValue=20.00000000, scriptPubKey=03deffb76128303567c6280ad7ea15)
+  vMerkleTree: 7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923 
+2018-05-19 11:50:48 generated 20.00
+2018-05-19 11:50:48 keypool keep 2
+2018-05-19 11:50:48   nActualTimespan = 526  before bounds
+2018-05-19 11:50:48 GetNextWorkRequired RETARGET
+2018-05-19 11:50:48 nTargetTimespan = 300    nActualTimespan = 526
+2018-05-19 11:50:48 Before: 1e0ffff0  00000ffff0000000000000000000000000000000000000000000000000000000
+2018-05-19 11:50:48 After:  1e0fffff  00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+2018-05-19 11:50:49 AddToWallet 7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923  new
+2018-05-19 11:50:49 NotifyTransactionChanged 7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923 status=0
+2018-05-19 11:50:49 updateWallet 7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923 0
+2018-05-19 11:50:49    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2018-05-19 11:50:49 Committing 1 changed transactions to coin database...
+2018-05-19 11:50:49 SetBestChain: new best=2b2a11a2b251a5d07645af6f9530d5aac2ff4a3b4b657e1bb4d513a367b9c32e  height=3  log2_work=22.807374  tx=4  date=2018-05-19 11:50:48 progress=0.999997
+2018-05-19 11:50:49 ProcessBlock: ACCEPTED
+2018-05-19 11:50:49 keypool added key 103, size=101
+2018-05-19 11:50:49 keypool reserve 3
+2018-05-19 11:50:49 CreateNewBlock(): total size 1000
+2018-05-19 11:50:49   nActualTimespan = 185  before bounds
+2018-05-19 11:50:49 GetNextWorkRequired RETARGET
+2018-05-19 11:50:49 nTargetTimespan = 300    nActualTimespan = 185
+2018-05-19 11:50:49 Before: 1e0fffff  00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 11:50:49 After:  1e09dddd  000009dddd400000000000000000000000000000000000000000000000000000
+2018-05-19 11:50:49 Running yyyyyyyyyyyyyyyyyy with 1 transactions in block (186 bytes)
+2018-05-19 11:50:49 received getdata for: block 2b2a11a2b251a5d07645af6f9530d5aac2ff4a3b4b657e1bb4d513a367b9c32e
+2018-05-19 11:50:51 Flushing wallet.dat
+2018-05-19 11:50:51 Flushed wallet.dat 10ms
+2018-05-19 11:59:42 yyyyyyyyyyyyyyyyyy:
+2018-05-19 11:59:42 proof-of-work found  
+  hash: 000002f58b8b4d1513e54129ad99ca36d7409c86da7e197f3e65e877e5ccb0de  
+target: 000009dddd000000000000000000000000000000000000000000000000000000
+2018-05-19 11:59:42 CBlock(hash=2af422196244aa5bdcc6a9b790b97017f4c29a4de6037a91739aba244e1c72f2, input=020000002ec3b967a313d5b41b7e654b3b4affc2aad530956faf4576d0a551b2a2112a2b54e10cd06c2c53a977af507c9e67fc6c7c968ba4c6699bc928393368c1878a36ae11005bdddd091e98871200, PoW=000002f58b8b4d1513e54129ad99ca36d7409c86da7e197f3e65e877e5ccb0de, ver=2, hashPrevBlock=2b2a11a2b251a5d07645af6f9530d5aac2ff4a3b4b657e1bb4d513a367b9c32e, hashMerkleRoot=368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154, nTime=1526731182, nBits=1e09dddd, nNonce=1214360, vtx=1)
+2018-05-19 11:59:42   CTransaction(hash=368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 540101062f503253482f)
+    CTxOut(nValue=20.00000000, scriptPubKey=02846aeabc0fa14418b34874dd00ea)
+  vMerkleTree: 368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154 
+2018-05-19 11:59:42 generated 20.00
+2018-05-19 11:59:42 keypool keep 3
+2018-05-19 11:59:42   nActualTimespan = 185  before bounds
+2018-05-19 11:59:42 GetNextWorkRequired RETARGET
+2018-05-19 11:59:42 nTargetTimespan = 300    nActualTimespan = 185
+2018-05-19 11:59:42 Before: 1e0fffff  00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 11:59:42 After:  1e09dddd  000009dddd400000000000000000000000000000000000000000000000000000
+2018-05-19 11:59:42 AddToWallet 368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154  new
+2018-05-19 11:59:42 NotifyTransactionChanged 368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154 status=0
+2018-05-19 11:59:42 updateWallet 368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154 0
+2018-05-19 11:59:42    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2018-05-19 11:59:42 Committing 1 changed transactions to coin database...
+2018-05-19 11:59:42 SetBestChain: new best=2af422196244aa5bdcc6a9b790b97017f4c29a4de6037a91739aba244e1c72f2  height=4  log2_work=23.107975  tx=5  date=2018-05-19 11:59:42 progress=1.000000
+2018-05-19 11:59:42 NotifyTransactionChanged 7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923 status=1
+2018-05-19 11:59:42 updateWallet 7df5b49f3c9e807d921658c4f7bd02afd573190cf0bd05493e121fa55adc0923 1
+2018-05-19 11:59:42    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2018-05-19 11:59:42 ProcessBlock: ACCEPTED
+2018-05-19 11:59:42 received getdata for: block 2af422196244aa5bdcc6a9b790b97017f4c29a4de6037a91739aba244e1c72f2
+2018-05-19 11:59:42 keypool added key 104, size=101
+2018-05-19 11:59:42 keypool reserve 4
+2018-05-19 11:59:42 CreateNewBlock(): total size 1000
+2018-05-19 11:59:42   nActualTimespan = 534  before bounds
+2018-05-19 11:59:42 GetNextWorkRequired RETARGET
+2018-05-19 11:59:42 nTargetTimespan = 300    nActualTimespan = 534
+2018-05-19 11:59:42 Before: 1e09dddd  000009dddd000000000000000000000000000000000000000000000000000000
+2018-05-19 11:59:42 After:  1e0fffff  00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+2018-05-19 11:59:42 Running yyyyyyyyyyyyyyyyyy with 1 transactions in block (186 bytes)
+2018-05-19 11:59:44 Flushing wallet.dat
+2018-05-19 11:59:44 Flushed wallet.dat 6ms
+2018-05-19 11:59:59 Flushed 0 addresses to peers.dat  15ms
+2018-05-19 12:03:56 ResendWalletTransactions()
+2018-05-19 12:05:02 UPnP Port Mapping successful.
+2018-05-19 12:06:41 received block 07e94bc643be528d735731559409c8306130626d71627236909313261d44bd1a
+2018-05-19 12:06:41   nActualTimespan = 534  before bounds
+2018-05-19 12:06:41 GetNextWorkRequired RETARGET
+2018-05-19 12:06:41 nTargetTimespan = 300    nActualTimespan = 534
+2018-05-19 12:06:41 Before: 1e09dddd  000009dddd000000000000000000000000000000000000000000000000000000
+2018-05-19 12:06:41 After:  1e0fffff  00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+2018-05-19 12:06:41 Committing 1 changed transactions to coin database...
+2018-05-19 12:06:41 SetBestChain: new best=07e94bc643be528d735731559409c8306130626d71627236909313261d44bd1a  height=5  log2_work=23.266294  tx=6  date=2018-05-19 12:06:40 progress=0.999998
+2018-05-19 12:06:41 NotifyTransactionChanged 368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154 status=1
+2018-05-19 12:06:41 ProcessBlock: ACCEPTED
+2018-05-19 12:06:41 updateWallet 368a87c168333928c99b69c6a48b967c6cfc679e7c50af77a9532c6cd00ce154 1
+2018-05-19 12:06:41    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2018-05-19 12:06:41 CreateNewBlock(): total size 1000
+2018-05-19 12:06:41   nActualTimespan = 418  before bounds
+2018-05-19 12:06:41 GetNextWorkRequired RETARGET
+2018-05-19 12:06:41 nTargetTimespan = 300    nActualTimespan = 418
+2018-05-19 12:06:41 Before: 1e0fffff  00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 12:06:41 After:  1e0fffff  00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+2018-05-19 12:06:41 Running yyyyyyyyyyyyyyyyyy with 1 transactions in block (186 bytes)
+2018-05-19 12:10:26 yyyyyyyyyyyyyyyyyy:
+2018-05-19 12:10:26 proof-of-work found  
+  hash: 000008684622b5f0e88c565030da1286ffb0cbb0b490db77ff62f9730eff0fe0  
+target: 00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 12:10:26 CBlock(hash=3d9d579ebc525a90fafa773e8b0ff465e33e82a19fd4a54bb972dfb4f1eeec1e, input=020000001abd441d26139390367262716d62306130c80994553157738d52be43c64be907bfef6f29f270e3340547bbb0c15efa4a79f9879a185cc4ccf76143f7d981a2603214005bffff0f1ee8580700, PoW=000008684622b5f0e88c565030da1286ffb0cbb0b490db77ff62f9730eff0fe0, ver=2, hashPrevBlock=07e94bc643be528d735731559409c8306130626d71627236909313261d44bd1a, hashMerkleRoot=60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf, nTime=1526731826, nBits=1e0fffff, nNonce=481512, vtx=1)
+2018-05-19 12:10:26   CTransaction(hash=60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 560101062f503253482f)
+    CTxOut(nValue=20.00000000, scriptPubKey=0237dce13c38fab52d37cfe6e718ff)
+  vMerkleTree: 60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf 
+2018-05-19 12:10:26 generated 20.00
+2018-05-19 12:10:26 keypool keep 4
+2018-05-19 12:10:26   nActualTimespan = 418  before bounds
+2018-05-19 12:10:26 GetNextWorkRequired RETARGET
+2018-05-19 12:10:26 nTargetTimespan = 300    nActualTimespan = 418
+2018-05-19 12:10:26 Before: 1e0fffff  00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 12:10:26 After:  1e0fffff  00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+2018-05-19 12:10:26 AddToWallet 60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf  new
+2018-05-19 12:10:26 NotifyTransactionChanged 60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf status=0
+2018-05-19 12:10:26 updateWallet 60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf 0
+2018-05-19 12:10:26    inWallet=1 inModel=0 Index=1-1 showTransaction=0 derivedStatus=0
+2018-05-19 12:10:26 Committing 1 changed transactions to coin database...
+2018-05-19 12:10:26 SetBestChain: new best=3d9d579ebc525a90fafa773e8b0ff465e33e82a19fd4a54bb972dfb4f1eeec1e  height=6  log2_work=23.408945  tx=7  date=2018-05-19 12:10:26 progress=1.000000
+2018-05-19 12:10:26 ProcessBlock: ACCEPTED
+2018-05-19 12:10:26 keypool added key 105, size=101
+2018-05-19 12:10:26 keypool reserve 5
+2018-05-19 12:10:26 CreateNewBlock(): total size 1000
+2018-05-19 12:10:26   nActualTimespan = 226  before bounds
+2018-05-19 12:10:26 GetNextWorkRequired RETARGET
+2018-05-19 12:10:26 nTargetTimespan = 300    nActualTimespan = 226
+2018-05-19 12:10:26 Before: 1e0fffff  00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 12:10:26 After:  1e0c0da6  00000c0da6800000000000000000000000000000000000000000000000000000
+2018-05-19 12:10:26 Running yyyyyyyyyyyyyyyyyy with 1 transactions in block (186 bytes)
+2018-05-19 12:10:26 received getdata for: block 3d9d579ebc525a90fafa773e8b0ff465e33e82a19fd4a54bb972dfb4f1eeec1e
+2018-05-19 12:10:28 Flushing wallet.dat
+2018-05-19 12:10:28 Flushed wallet.dat 18ms
+2018-05-19 12:13:12 received block 4b954618bad61681744487502b49a4e395dea5902ee62d73cd1a1b7f6668c8c5
+2018-05-19 12:13:12   nActualTimespan = 226  before bounds
+2018-05-19 12:13:12 GetNextWorkRequired RETARGET
+2018-05-19 12:13:12 nTargetTimespan = 300    nActualTimespan = 226
+2018-05-19 12:13:12 Before: 1e0fffff  00000fffff000000000000000000000000000000000000000000000000000000
+2018-05-19 12:13:12 After:  1e0c0da6  00000c0da6800000000000000000000000000000000000000000000000000000
+2018-05-19 12:13:12 Committing 1 changed transactions to coin database...
+2018-05-19 12:13:12 SetBestChain: new best=4b954618bad61681744487502b49a4e395dea5902ee62d73cd1a1b7f6668c8c5  height=7  log2_work=23.578836  tx=8  date=2018-05-19 12:13:12 progress=1.000000
+2018-05-19 12:13:12 NotifyTransactionChanged 60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf status=1
+2018-05-19 12:13:12 ProcessBlock: ACCEPTED
+2018-05-19 12:13:12 updateWallet 60a281d9f74361f7ccc45c189a87f9794afa5ec1b0bb470534e370f2296fefbf 1
+2018-05-19 12:13:12    inWallet=1 inModel=0 Index=1-1 showTransaction=1 derivedStatus=0
+2018-05-19 12:13:13 CreateNewBlock(): total size 1000
+2018-05-19 12:13:13   nActualTimespan = 166  before bounds
+2018-05-19 12:13:13 GetNextWorkRequired RETARGET
+2018-05-19 12:13:13 nTargetTimespan = 300    nActualTimespan = 166
+2018-05-19 12:13:13 Before: 1e0c0da6  00000c0da6000000000000000000000000000000000000000000000000000000
+2018-05-19 12:13:13 After:  1e06ab64  000006ab6462fc962fc962fc962fc962fc962fc962fc962fc962fc962fc962fc
+2018-05-19 12:13:13 Running yyyyyyyyyyyyyyyyyy with 1 transactions in block (186 bytes)
+2018-05-19 12:14:59 Flushed 0 addresses to peers.dat  6ms
+2018-05-19 12:15:26 hashmeter      2 khash/s
+2018-05-19 12:21:14 ResendWalletTransactions()
+2018-05-19 12:25:02 UPnP Port Mapping successful.
+2018-05-19 12:30:00 Flushed 0 addresses to peers.dat  8ms
